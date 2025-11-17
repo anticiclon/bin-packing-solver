@@ -4,13 +4,13 @@ Implementación de algoritmos heurísticos y solver exacto para el problema de b
 
 ## Descripción
 
-Este proyecto compara el rendimiento de cuatro algoritmos heurísticos (First Fit, Best Fit, Worst Fit, First Fit Decreasing) contra un solver exacto basado en programación lineal entera mixta (MIP) usando Gurobi Optimizer.
+Este proyecto compara el rendimiento de cuatro algoritmos heurísticos (First Fit, Best Fit, Worst Fit, First Fit Decreasing) y un modelo exacto basado en programación lineal entera mixta (MILP) usando Gurobi Optimizer.
 
 ## Características
 
 - **Heurísticas clásicas**: FF, BF, WF, FFD
 - **Solver exacto**: Formulación MIP con Gurobi
-- **Warm start**: Inicialización del MIP con solución heurística
+- **Warm start**: Inicialización del MILP con solución heurística
 - **Generador de instancias**: Crea instancias de prueba con diferentes características
 - **Análisis automático**: Scripts para ejecutar experimentos y generar reportes
 
