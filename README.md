@@ -9,7 +9,7 @@ Este proyecto compara el rendimiento de cuatro algoritmos heurísticos (First Fi
 ## Características
 
 - **Heurísticas clásicas**: FF, BF, WF, FFD
-- **Solver exacto**: Formulación MIP con Gurobi
+- **Solver exacto**: Formulación MILP con Gurobi
 - **Warm start**: Inicialización del MILP con solución heurística
 - **Generador de instancias**: Crea instancias de prueba con diferentes características
 - **Análisis automático**: Scripts para ejecutar experimentos y generar reportes
