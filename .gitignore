@@ -1,0 +1,65 @@
+# ==============================================================================
+# .gitignore para proyecto C++ con CMake y Gurobi
+# ==============================================================================
+
+# Directorios de compilación
+build/
+Release/
+Debug/
+out/
+
+# Archivos compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.obj
+*.o
+
+# Archivos de Visual Studio
+.vs/
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Output de experimentos
+output/
+# Mantener JSONs de ejemplo (descomentar si quieres subirlos)
+# !output/exact_solution_Caso1.json
+
+# Instancias generadas (opcional)
+instances/*.txt
+# Mantener instancias de ejemplo
+!instances/README.md
+
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Gurobi (no subir licencias)
+*.lic
+gurobi.log
+
+# Archivos de sistema macOS
+.DS_Store
