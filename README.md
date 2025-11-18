@@ -6,6 +6,9 @@ Implementación de algoritmos heurísticos y solver exacto para el problema de b
 
 Este proyecto compara el rendimiento de cuatro algoritmos heurísticos (First Fit, Best Fit, Worst Fit, First Fit Decreasing) y un modelo exacto basado en programación lineal entera mixta (MILP) usando Gurobi Optimizer.
 
+Este proyecto compara el rendimiento de cuatro algoritmos heurísticos (First Fit, Best Fit, Worst Fit, First Fit Decreasing) y un solver exacto basado en programación lineal entera mixta (MILP) usando Gurobi Optimizer.
+(Add PowerShell automation script with proper paths)
+
 ## Características
 
 - **Heurísticas clásicas**: FF, BF, WF, FFD
